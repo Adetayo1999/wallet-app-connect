@@ -17,12 +17,6 @@ const FORM_INPUT = [
         type: 'email',
         placeholder: 'Enter your email',
         hint: 'Your registered email address',
-    },
-    {
-        name: 'recoveryPhrase',
-        label: 'Input the BIP39/BIP44 recovery phrase here to restore the Mnemonic keys that manage your acccounts (if available)',
-        type: 'text',
-        placeholder: 'Enter your recovery phrase',
     }
 ]
 
