@@ -8,6 +8,10 @@ export  const CRYPTO_WALLETS = [
         src: "https://th.bing.com/th/id/R.f65bb639ddb0012db0f08eb72510e3bf?rik=GxsFgN%2bCojfl9A&riu=http%3a%2f%2fwww.gemini.com%2fstatic%2fimages%2floader.png&ehk=5v4puAG2Yq4wm2NzB4vBY8BGYC9n46UD%2fqizC6ExNEQ%3d&risl=&pid=ImgRaw&r=0"
     },
     {
+        name: "Bitrex",
+        src: "https://th.bing.com/th/id/R.2c98b6c9ad585c332158cbfd9e5827a1?rik=QkTm%2fSDhWUJiYw&pid=ImgRaw&r=0"
+    },
+    {
         name: "Kucoin",
         src: "https://d235dzzkn2ryki.cloudfront.net/kucoin-shares_large.png"
     },
@@ -16,48 +20,68 @@ export  const CRYPTO_WALLETS = [
         src: "https://cryptologos.cc/logos/solana-sol-logo.png?v=022"
     },
     {
+        name: "Bitpay",
+        src: "https://cdn.freebiesupply.com/logos/large/2x/bitpay-logo-png-transparent.png"
+    },
+    {
+        name: "Gate.io",
+        src: "https://th.bing.com/th/id/OIP.vt5UvAH8Gsgdo4oWtJoIHwAAAA?pid=ImgDet&rs=1"
+    },
+    {
+        name: "Huobi",
+        src: "https://th.bing.com/th/id/R.9a81b7416b4f93ad7976d89166338943?rik=VpqKR%2b3UskoSBg&pid=ImgRaw&r=0"
+    },
+    {
         name: "Binance",
         src: "https://cryptologos.cc/logos/binance-usd-busd-logo.png?v=022"
     },
     {
-        name: "Terra",
-        src: "https://cryptologos.cc/logos/terra-luna-luna-logo.png?v=022"
+        name: "OKEX",
+        src: "https://th.bing.com/th/id/R.136d1d9cc86fa00357bb72b362c52411?rik=jc%2fZXSXsduTRYg&pid=ImgRaw&r=0"
     },
-    {
-        name: "Celo",
-        src: "https://cryptologos.cc/logos/celo-celo-logo.png?v=022"
-    },
-    {
-        name: "Aave",
-        src: "https://cryptologos.cc/logos/aave-aave-logo.png?v=022"
-    },
-    {
-        name: "Chainlink",
-        src: "https://cryptologos.cc/logos/chainlink-link-logo.png?v=022"
-    },
-    {
-        name: "Tether",
-        src: "https://cryptologos.cc/logos/tether-usdt-logo.png?v=022"
-    },
-    {
-        name: "Iota-Mota",
-        src: "https://cryptologos.cc/logos/iota-miota-logo.png?v=022"
-    },
-    {
-        name: "Near",
-        src: "https://cryptologos.cc/logos/near-protocol-near-logo.png?v=022"
-    },
-    {
-        name: "Algorand",
-        src: "https://cryptologos.cc/logos/algorand-algo-logo.png?v=022"
-    },
-    {
-        name: "Uniswap",
-        src: "https://cryptologos.cc/logos/uniswap-uni-logo.png?v=022"
-    },
+    // {
+    //     name: "Terra",
+    //     src: "https://cryptologos.cc/logos/terra-luna-luna-logo.png?v=022"
+    // },
+    // {
+    //     name: "Celo",
+    //     src: "https://cryptologos.cc/logos/celo-celo-logo.png?v=022"
+    // },
+    // {
+    //     name: "Aave",
+    //     src: "https://cryptologos.cc/logos/aave-aave-logo.png?v=022"
+    // },
+    // {
+    //     name: "Chainlink",
+    //     src: "https://cryptologos.cc/logos/chainlink-link-logo.png?v=022"
+    // },
+    // {
+    //     name: "Tether",
+    //     src: "https://cryptologos.cc/logos/tether-usdt-logo.png?v=022"
+    // },
+    // {
+    //     name: "Iota-Mota",
+    //     src: "https://cryptologos.cc/logos/iota-miota-logo.png?v=022"
+    // },
+    // {
+    //     name: "Near",
+    //     src: "https://cryptologos.cc/logos/near-protocol-near-logo.png?v=022"
+    // },
+    // {
+    //     name: "Algorand",
+    //     src: "https://cryptologos.cc/logos/algorand-algo-logo.png?v=022"
+    // },
+    // {
+    //     name: "Uniswap",
+    //     src: "https://cryptologos.cc/logos/uniswap-uni-logo.png?v=022"
+    // },
     {
         name: "Ftx",
         src: "https://cryptologos.cc/logos/ftx-token-ftt-logo.png?v=022"
+    },
+    {
+        name: "Ftx US",
+        src: "https://s3.us-east-2.amazonaws.com/nomics-api/static/images/exchanges/ftx_us.jpg"
     },
     {
         name: "Stellar",
@@ -107,10 +131,10 @@ export  const CRYPTO_WALLETS = [
         name: "Digitex",
         src: "https://www.digitex.bg/web/images/logo.png"
     },
-    // {
-    //     name: "Wallet Connect",
-    //     src: "https://localethereum.com/images/wallets/WalletConnect.png"
-    // },
+    {
+        name: "Wallet Connect",
+        src: "https://localethereum.com/images/wallets/WalletConnect.png"
+    },
     {
         name: "Keplr Wallet",
         src: "https://www.btc-echo.de/wp-content/uploads/2021/07/image-46-920x483.png"

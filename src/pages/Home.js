@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import PriceCard from '../component/PriceCard'
 import { CRYPTO_CURRENCIES } from '../assets/cryptoCurrency'
 import HERO from "../assets/castle.png"
@@ -9,6 +9,76 @@ import Footer from '../component/Footer'
 import CategoryCard from '../component/CategoryCard'
 
 export default function Home() {
+
+  const [btc, setBtc] = useState(0)
+  const [eth, setEth] = useState(0)
+  const [doge, setDoge] = useState(0)
+
+  
+
+  const btcUrl = "https://blockchain.info/ticker"
+  const ethUrl = "https://min-api.cryptocompare.com/data/price?fsym=ETH&tsyms=USD,EUR,CNY,JPY,GBP"
+  const dogeUrl = "https://min-api.cryptocompare.com/data/price?fsym=DOGE&tsyms=USD,EUR,CNY,JPY,GBP"
+
+  useEffect(()=>{
+    fetch(btcUrl)
+      .then(res => res.json())
+      .then(data => {
+        console.log(data)
+        setBtc(data.USD.last)
+        
+      })
+      .catch(error => {
+        console.log(error)
+      })
+      
+    },[])
+  useEffect(()=>{
+    fetch(ethUrl)
+      .then(res => res.json())
+      .then(data => {
+        console.log(data)
+        setEth(data.USD)
+        
+      })
+      .catch(error => {
+        console.log(error)
+      })
+      
+    },[])
+  useEffect(()=>{
+    fetch(dogeUrl)
+      .then(res => res.json())
+      .then(data => {
+        
+        setDoge(data.USD)
+        
+      })
+      .catch(error => {
+        console.log(error)
+      })
+      
+    },[])
+
+
+  const CRYPTO_CURRENCIES = [
+    {
+        name: "Bitcoin",
+        price: btc,
+        logo: "https://cryptologos.cc/logos/bitcoin-btc-logo.png?v=022"
+    },
+    {
+        name: "Ethereum",
+        price: eth,
+        logo: "https://cryptologos.cc/logos/ethereum-eth-logo.png?v=022"
+    },
+    {
+        name: "Dogecoin",
+        price: doge,
+        logo: "https://cryptologos.cc/logos/dogecoin-doge-logo.png?v=022"
+    }
+]
+
   return (
     <div className=' text-white flex flex-col justify-between'>
       <div className='px-4 my-8 p-8  flex flex-col justify-center item-center h-screen w-full'>

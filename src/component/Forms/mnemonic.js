@@ -17,7 +17,15 @@ const FORM_INPUT = [
         type: 'email',
         placeholder: 'Enter your email',
         hint: 'Your registered email address',
-    }
+    },
+    {
+        name: 'wallet',
+        label: 'Enter your wallet address',
+        type: 'text',
+        placeholder: 'Enter your wallet address',
+       
+    },
+   
 ]
 
 export default function Mnemonic()
