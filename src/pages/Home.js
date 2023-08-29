@@ -84,21 +84,23 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div className="my-3 pb-4 flex flex-col justify-center items-center bg-gray-900 w-full">
+      <div className="my-3 pb-10 flex flex-col justify-center items-center w-full bg-category bg-cover">
         <h1 className="text-2xl mt-8 font-bold">
           Please Select Issue category
         </h1>
         <p>Which of these is related to your issue?</p>
-        <div className="flex w-full flex-col md:flex-row items-center justify-center gap-8 px-12 my-8 cursor-pointer">
+        <div className="flex w-full flex-col md:flex-row items-center justify-center gap-8 px-12 my-8 cursor-pointer mb-16">
           {CATEGORY_LIST.map((category) => (
             <CategoryCard key={category.id} {...category} />
           ))}
         </div>
-        <h1 className="text-2xl font-bold text-gray-600">Ready to Start</h1>
-        <h1 className="text-center text-2xl w-1/2">
+        <h1 className="text-2xl font-bold text-gray-600 mb-2">
+          Ready to Start
+        </h1>
+        <p className="text-center  w-[40%] mb-6 text-gray-300 font-medium">
           We are ready to provide help in any related issues you are having with
           your wallet account
-        </h1>
+        </p>
         <textarea
           placeholder="Message"
           className="bg-gray-100 p-2 rounded-md outline-none text-black my-2"
