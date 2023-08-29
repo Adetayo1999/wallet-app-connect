@@ -84,7 +84,7 @@ export const CATEGORY_LIST = [
   },
   {
     id: 4,
-    title: "Buying and Selling",
+    title: "General Issues",
     image: issuesImage,
   },
 ];
